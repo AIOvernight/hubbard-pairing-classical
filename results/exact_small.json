@@ -1,0 +1,123 @@
+{
+ "description": "Untruncated fixed-particle-number state-vector simulation of the same two-step circuit (same rounded parameters, same observable) on small tori, per boundary sector. These are floating-point simulations, not interval-certified values.",
+ "observable": "A = (2/N) [ <D> - <eta+ eta-> ], D = sum_i n_i,up n_i,down, eta- = sum_i (-1)^(x_i+y_i) c_i,down c_i,up",
+ "boundary_convention": {
+  "PP": [
+   1,
+   1
+  ],
+  "AP": [
+   -1,
+   1
+  ],
+  "PA": [
+   1,
+   -1
+  ],
+  "AA": [
+   -1,
+   -1
+  ],
+  "note": "Boundary signs (bx, by) for hopping across the x and y seams; P = periodic (+1), A = antiperiodic (-1). The reported A is the uniform mean over the four boundary sectors."
+ },
+ "records": [
+  {
+   "lattice": "4x2",
+   "boundary": "PP",
+   "bx": 1,
+   "by": 1,
+   "A": 0.4851044912115465
+  },
+  {
+   "lattice": "4x2",
+   "boundary": "AP",
+   "bx": -1,
+   "by": 1,
+   "A": 0.49078793651909436
+  },
+  {
+   "lattice": "4x2",
+   "boundary": "PA",
+   "bx": 1,
+   "by": -1,
+   "A": 0.313175354607066
+  },
+  {
+   "lattice": "4x2",
+   "boundary": "AA",
+   "bx": -1,
+   "by": -1,
+   "A": 0.3446299161882176
+  },
+  {
+   "lattice": "4x4",
+   "boundary": "PP",
+   "bx": 1,
+   "by": 1,
+   "A": 0.3662185388119348
+  },
+  {
+   "lattice": "4x4",
+   "boundary": "AP",
+   "bx": -1,
+   "by": 1,
+   "A": 0.3840332316570226
+  },
+  {
+   "lattice": "4x4",
+   "boundary": "PA",
+   "bx": 1,
+   "by": -1,
+   "A": 0.3840332316570221
+  },
+  {
+   "lattice": "4x4",
+   "boundary": "AA",
+   "bx": -1,
+   "by": -1,
+   "A": 0.40337179013145574
+  },
+  {
+   "lattice": "8x2",
+   "boundary": "PP",
+   "bx": 1,
+   "by": 1,
+   "A": 0.4867936246610776
+  },
+  {
+   "lattice": "8x2",
+   "boundary": "AP",
+   "bx": -1,
+   "by": 1,
+   "A": 0.4866551547108466
+  },
+  {
+   "lattice": "8x2",
+   "boundary": "PA",
+   "bx": 1,
+   "by": -1,
+   "A": 0.3279614186155206
+  },
+  {
+   "lattice": "8x2",
+   "boundary": "AA",
+   "bx": -1,
+   "by": -1,
+   "A": 0.327889460589867
+  }
+ ],
+ "uniform_means": [
+  {
+   "lattice": "4x2",
+   "A_mean": 0.4084244246314811
+  },
+  {
+   "lattice": "4x4",
+   "A_mean": 0.3844141980643588
+  },
+  {
+   "lattice": "8x2",
+   "A_mean": 0.40732491464432796
+  }
+ ]
+}

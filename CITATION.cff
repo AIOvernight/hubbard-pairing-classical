@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below, together with the original experiment and its data listed in references."
+title: "Classical estimate of the two-step 6x6 Hubbard pairing circuit (Quantum Advantage Tracker issue 259)"
+abstract: >-
+  Classical evaluation of the staggered pairing statistic after the two-step
+  light pulse of the 6x6 Hubbard (U/t = 8, half filling) pairing circuit, by
+  back-propagation of the observable and a connected-cumulant expansion of the
+  prepared state over supports of up to six sites. Includes exact small-lattice
+  simulators, the stored results and a conditional error estimate.
+type: software
+authors:
+  - name: "@AIOvernight"
+    website: "https://x.com/AIOvernight"
+version: "1.0.0"
+date-released: "2026-10-21"
+license: MIT
+keywords:
+  - Hubbard model
+  - quantum advantage
+  - fermionic cumulants
+  - classical simulation
+references:
+  - type: data
+    title: "Supporting Data for the publication Superconducting pairing correlations on a trapped-ion quantum computer"
+    authors:
+      - family-names: Granet
+        given-names: Etienne
+      - family-names: Lin
+        given-names: Sheng-Hsuan
+      - family-names: Hémery
+        given-names: Kévin
+      - family-names: Iqbal
+        given-names: Mohsin
+      - family-names: Dreyer
+        given-names: Henrik
+    doi: 10.5281/zenodo.17483197
+    year: 2025
+  - type: article
+    authors:
+      - family-names: Granet
+        given-names: Etienne
+      - family-names: Lin
+        given-names: Sheng-Hsuan
+      - family-names: Hémery
+        given-names: Kévin
+      - family-names: Iqbal
+        given-names: Mohsin
+      - family-names: Dreyer
+        given-names: Henrik
+    title: "Superconducting pairing correlations on a trapped-ion quantum computer"
+    url: "https://arxiv.org/abs/2511.02125"

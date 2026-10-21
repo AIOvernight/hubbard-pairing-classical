@@ -1,0 +1,2 @@
+# Optional GPU backend (NVIDIA, CUDA 12.x). Install in addition to requirements.txt.
+cupy-cuda12x>=13.0

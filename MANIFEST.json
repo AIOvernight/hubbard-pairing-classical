@@ -1,0 +1,251 @@
+{
+ "description": "SHA-256 and size of every file in this repository except MANIFEST.json itself",
+ "algorithm": "sha256",
+ "files": [
+  {
+   "path": ".gitignore",
+   "size": 259,
+   "sha256": "5fa4857c5e680f16f92d76588d41a76075df13ac5e1415cca970f5b11790c9a8"
+  },
+  {
+   "path": "CITATION.cff",
+   "size": 1862,
+   "sha256": "7356ad1daf3964e559e64325862d8bf25ff0bd10dda670f9b38228319168e969"
+  },
+  {
+   "path": "LICENSE",
+   "size": 1068,
+   "sha256": "e21c1c036119beff6957747e12d169b3a95f0a18c7b0c36c59a2202cee11bd97"
+  },
+  {
+   "path": "LICENSE-DATA.md",
+   "size": 518,
+   "sha256": "62487a43269376a1c934b0bd3d9437d6f196a231d5f5c00b279cc711ac83ed37"
+  },
+  {
+   "path": "README.md",
+   "size": 22053,
+   "sha256": "8ea16a9f579e5a23b1fbafe459265140e88e3d2e5e0462137908932e1ab521e3"
+  },
+  {
+   "path": "docs/AI_AND_PROVENANCE.md",
+   "size": 3649,
+   "sha256": "779d7e876b911558ef4dbbb721330dea88de339e61ed85dcdeeaeb84ff5c740d"
+  },
+  {
+   "path": "docs/STATUS.md",
+   "size": 1607,
+   "sha256": "bacc5b693a7f35751ed193e23e04745c8f801e64b0087a617dc94e51e49be9c3"
+  },
+  {
+   "path": "hubbard259/__init__.py",
+   "size": 1039,
+   "sha256": "371fca766ea41f0b79ba818e8de4e8591f0604d0de0f50c12e84f56a93ad8af0"
+  },
+  {
+   "path": "hubbard259/_geometry.py",
+   "size": 4622,
+   "sha256": "a4753ade433a09a30d1b4c76f354215f4c5e2e546f6e034236dcf14b6f55a5b7"
+  },
+  {
+   "path": "hubbard259/circuit.py",
+   "size": 6946,
+   "sha256": "7c0a451ef55c032ae536ac2374b0d91fd3e096c6b362e8db8a90d08bee91bea4"
+  },
+  {
+   "path": "hubbard259/clusters.py",
+   "size": 10954,
+   "sha256": "9087c89dbb6d8eeeeb02652721337a2ac751fe2ee8b5e9a1d9cb6cac3f5df2a5"
+  },
+  {
+   "path": "hubbard259/cumulants.py",
+   "size": 11412,
+   "sha256": "c707cf8bd0552e7c877a600bd99e570a978125a2fb2276b635bc3054e04edb2c"
+  },
+  {
+   "path": "hubbard259/error.py",
+   "size": 12519,
+   "sha256": "7caaf900bf6c80dc6ec507483472ccb1ba356869f0a594038bc6ee93fa68d183"
+  },
+  {
+   "path": "hubbard259/exact.py",
+   "size": 9198,
+   "sha256": "9aefd75887aea56131faf7e77e05c28a914ffa4643ea5e67123b40d95654a64e"
+  },
+  {
+   "path": "hubbard259/exact_gpu.py",
+   "size": 8722,
+   "sha256": "db2eaede8eccbe4ee1a468f242c6ac51a341b760d9f1ef10ba531993d4d9824d"
+  },
+  {
+   "path": "hubbard259/hierarchy.py",
+   "size": 2966,
+   "sha256": "9df84da8e8fd63d935bc448919e258b71959459a246c22b739c0ae63324ceab0"
+  },
+  {
+   "path": "hubbard259/lattice.py",
+   "size": 6319,
+   "sha256": "11804aafe02655d0962f4513b1d4caa00ce44b655da6e70863a9af0860c158db"
+  },
+  {
+   "path": "hubbard259/production.py",
+   "size": 11016,
+   "sha256": "ae2551d42d95664c0c2db1e8d8da642c2f36cb9ec546c6fbe2a7fa7c89956aeb"
+  },
+  {
+   "path": "hubbard259/projection.py",
+   "size": 14506,
+   "sha256": "50b4c257479eaedd57e215dda71793995f1232ed13eb4da748b1cc9840959aa1"
+  },
+  {
+   "path": "hubbard259/readout.py",
+   "size": 5611,
+   "sha256": "7fccfd94da3e48102aad4b094dde6952f847a41c21036ae89819ff581e997156"
+  },
+  {
+   "path": "hubbard259/reduction.py",
+   "size": 8138,
+   "sha256": "0a47362e41489c7f46ff440e75f31057c9b9aba1a0322669b456dea318ac75d8"
+  },
+  {
+   "path": "reproduce.sh",
+   "size": 4512,
+   "sha256": "cb40ff83f7f001a2dda6ca03295fc7ac04e8c928b2f37dd5bc92bd16427ba3e4"
+  },
+  {
+   "path": "requirements-gpu.txt",
+   "size": 104,
+   "sha256": "531912cd299fa6d3cc6edc733aa22bb46c97dc7932e20a0080fee4831c83172c"
+  },
+  {
+   "path": "requirements.txt",
+   "size": 64,
+   "sha256": "181bbf51d0ae889b9fb31afe585d0518e2cb5c5986287d25f0132d845921d69e"
+  },
+  {
+   "path": "results/SHA256SUMS",
+   "size": 943,
+   "sha256": "552f2e8c4cfeacc77a7fdaabbdcdf655633eff7b91cfb9c3e40d639d8595bc9f"
+  },
+  {
+   "path": "results/calibration.csv",
+   "size": 771,
+   "sha256": "d7f47e39095ad47703e48d8cf67321b1ab0864df73e54c318cee298601e51e57"
+  },
+  {
+   "path": "results/calibration.json",
+   "size": 5345,
+   "sha256": "abc9b78ef6f04ef47175f5939467fa48743bb33006792df1c0d2d2d6162b3f6d"
+  },
+  {
+   "path": "results/error_budget.json",
+   "size": 7873,
+   "sha256": "4fa84eb54c85aa3e2edc5d54cdc063c441c62a1b510f4b16ef960b6c229c497a"
+  },
+  {
+   "path": "results/exact_small.csv",
+   "size": 488,
+   "sha256": "869a00190a826a3c1fcd2907e40ac34778ae07f90562b3d3363572b8e1636e90"
+  },
+  {
+   "path": "results/exact_small.json",
+   "size": 2162,
+   "sha256": "f169e29e54a1ed4b7b0b70804679b83343e3aa2bbcf6a05794bb756b2759cd1b"
+  },
+  {
+   "path": "results/figures/calibration.png",
+   "size": 104943,
+   "sha256": "f61e0d850e2e4feb46b80b04b3b778f89f55dad137148d5092f8a41e69b4f0d0"
+  },
+  {
+   "path": "results/figures/convergence_ladder.png",
+   "size": 113332,
+   "sha256": "39b81ec81733c26b1ea6a3454c43cd3d4511ae65b4639f9e95749dd40b8545ab"
+  },
+  {
+   "path": "results/hierarchy_6x6.csv",
+   "size": 2727,
+   "sha256": "b54d8721107b8e7021b59f01b5f63563101abcec0501d34dbbc3caa31c34068b"
+  },
+  {
+   "path": "results/hierarchy_6x6.json",
+   "size": 9305,
+   "sha256": "fa18dd495b197a63e408a3742cf2d58371630edc11450d58614770e742dc9047"
+  },
+  {
+   "path": "results/hierarchy_small.csv",
+   "size": 11226,
+   "sha256": "6c7fdcf91b2402226511082d689f8359433b39f9325243c542947c474a46911b"
+  },
+  {
+   "path": "results/hierarchy_small.json",
+   "size": 33864,
+   "sha256": "753bf67ef59c7eb9408559a91d4751c12b0c0e1383eb371acf9c729b056fdbb9"
+  },
+  {
+   "path": "scripts/convention_check.py",
+   "size": 5294,
+   "sha256": "a05d6cf8eaeacff6dce7c861bd7c1cf6a436f6722ed3570c204da7297c55dc65"
+  },
+  {
+   "path": "scripts/estimate_error.py",
+   "size": 2638,
+   "sha256": "94950131f784c6dba2f805d83690c7c4dcf998fbbc253b95deedbef1929d9518"
+  },
+  {
+   "path": "scripts/fetch_circuits.sh",
+   "size": 983,
+   "sha256": "bf489119632d2f0a00b50b049f621dcef2570c72dc89ff994a64be83b3a64ff0"
+  },
+  {
+   "path": "scripts/hash_results.py",
+   "size": 1614,
+   "sha256": "f9d6a00984f77314dd7ab08e531b59f0494176d620e0d3cff31d2dcc05b19868"
+  },
+  {
+   "path": "scripts/make_figures.py",
+   "size": 5447,
+   "sha256": "67b6f780e37ebc3695ac36e25801be2c8685359193176993664ed50edab1b200"
+  },
+  {
+   "path": "scripts/run_exact.py",
+   "size": 4735,
+   "sha256": "cdbc0577050eb4750e4238bfd93e1ac6f2b8601af7537d4ad8731bc8c18fea38"
+  },
+  {
+   "path": "scripts/run_hierarchy.py",
+   "size": 5757,
+   "sha256": "24ba605c62f94fd3f4a534eff307255e229a028dcf0658246d6b20eb7ca5f8da"
+  },
+  {
+   "path": "scripts/validate_circuit.py",
+   "size": 10042,
+   "sha256": "2f9ded818e56ee9cff4c3564fd8d875bc8577959076f50bde4d06b2d74113608"
+  },
+  {
+   "path": "tests/test_circuit.py",
+   "size": 2931,
+   "sha256": "ca6df8a055d7e013c6a5d1d9c6edbd78bca24672b5fe8b92a087a12c690cb277"
+  },
+  {
+   "path": "tests/test_error.py",
+   "size": 3631,
+   "sha256": "90a4716e2ba74bdcf3a7150a3ac1b0048925e4d824d5724d554873576d0dd0c2"
+  },
+  {
+   "path": "tests/test_exact.py",
+   "size": 3283,
+   "sha256": "182bcf4ab8c02af0b181ef4215f2cdc4b78713553cc06278ec08cb4513b5dc2c"
+  },
+  {
+   "path": "tests/test_hierarchy.py",
+   "size": 5063,
+   "sha256": "2fd8ff0c180fbd2851dba69ce2805bea8932af4dbefe0928cb0ea7ef95997788"
+  },
+  {
+   "path": "verify.py",
+   "size": 11817,
+   "sha256": "2bd8e82e485e3e6438c472d554425538ecdfdd1f2bef812973f418b64b5f7c7d"
+  }
+ ]
+}

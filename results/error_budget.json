@@ -1,0 +1,321 @@
+{
+ "description": "Conditional error budget for the 6x6 rank-6 cutoff-6 estimate. E_tot = tau*mean(B) + mean(E_prune) + E_num; reported tau = 4.",
+ "hypothesis": "H(tau): in each boundary sector b the omitted physical preparation-support tail (connected supports of seven or more sites) is at most tau * B_b, with B_b = max(R, |d45_b|, |d56_b|); R is the worst |A(r6,c6) - exact| over the eight 4x2/4x4 calibration sectors. tau = 4 was fixed before the 6x6 cutoff-6 values existed.",
+ "conditional": true,
+ "rigorous": false,
+ "statistical_coverage": "none",
+ "estimate": {
+  "rank": 6,
+  "cutoff": 6,
+  "A": 0.3836428101992484,
+  "sectors": {
+   "PP": 0.38324312054449844,
+   "AP": 0.38362856677781826,
+   "PA": 0.38362900194077326,
+   "AA": 0.38407055153390374
+  }
+ },
+ "calibration": {
+  "R": 0.0007425943456630946,
+  "worst_lattice": "4x2",
+  "worst_boundary": "AP",
+  "lattices": [
+   "4x2",
+   "4x4"
+  ]
+ },
+ "sectors": [
+  {
+   "boundary": "PP",
+   "A": 0.38324312054449844,
+   "d45": 0.0005004041222818056,
+   "d56": 0.0005656992157310747,
+   "latest_increment_grows": true,
+   "B": 0.0007425943456630946,
+   "tail_allowance_tau4": 0.0029703773826523783,
+   "pruning_bound": 0.0
+  },
+  {
+   "boundary": "AP",
+   "A": 0.38362856677781826,
+   "d45": 0.0005423114875675594,
+   "d56": 0.0005330383137611694,
+   "latest_increment_grows": false,
+   "B": 0.0007425943456630946,
+   "tail_allowance_tau4": 0.0029703773826523783,
+   "pruning_bound": 0.0
+  },
+  {
+   "boundary": "PA",
+   "A": 0.38362900194077326,
+   "d45": 0.0005549658422170367,
+   "d56": 0.0005314781342942165,
+   "latest_increment_grows": false,
+   "B": 0.0007425943456630946,
+   "tail_allowance_tau4": 0.0029703773826523783,
+   "pruning_bound": 0.0
+  },
+  {
+   "boundary": "AA",
+   "A": 0.38407055153390374,
+   "d45": 0.000594457700534845,
+   "d56": 0.0005009756787230368,
+   "latest_increment_grows": false,
+   "B": 0.0007425943456630946,
+   "tail_allowance_tau4": 0.0029703773826523783,
+   "pruning_bound": 0.0
+  }
+ ],
+ "mean_increments": {
+  "d45": 0.0005480347881503117,
+  "d56": 0.0005327978356273744
+ },
+ "envelopes": {
+  "1": {
+   "tau": 1,
+   "mean_B": 0.0007425943456630946,
+   "physical_allowance": 0.0007425943456630946,
+   "pruning_allowance": 0.0,
+   "numerical_allowance": 0.002,
+   "total": 0.0027425943456630946
+  },
+  "2": {
+   "tau": 2,
+   "mean_B": 0.0007425943456630946,
+   "physical_allowance": 0.0014851886913261891,
+   "pruning_allowance": 0.0,
+   "numerical_allowance": 0.002,
+   "total": 0.003485188691326189
+  },
+  "4": {
+   "tau": 4,
+   "mean_B": 0.0007425943456630946,
+   "physical_allowance": 0.0029703773826523783,
+   "pruning_allowance": 0.0,
+   "numerical_allowance": 0.002,
+   "total": 0.004970377382652378
+  }
+ },
+ "reported_envelope": 0.004970377382652378,
+ "tau_max_for_tolerance": {
+  "tolerance": 0.02,
+  "tau": 24.239344273389296
+ },
+ "numerical_allowance": {
+  "value": 0.002,
+  "evidence": {
+   "lower_cutoff_comparisons": 24,
+   "lower_cutoff_reference": "float64 evaluation of the same hierarchy at cutoffs 4 and 5, all four sectors",
+   "max_weighted_abs_regional_discrepancy": 4.29651e-07,
+   "max_fraction_of_model_limit": 0.0190129,
+   "max_complex_total_difference": 4.50965e-08,
+   "cutoff6_imaginary_checks": 12,
+   "max_cutoff6_imaginary_total": 4.36616e-08,
+   "max_sampled_proxy_6x6_sector": 0.00018307828665,
+   "scope": "Observed comparisons that qualify E_num = 0.002 as an empirical allowance; they do not certify floating-point error on unsampled cutoff-6 regions."
+  }
+ },
+ "holdout_checks": [
+  {
+   "training_lattice": "4x2",
+   "heldout_lattice": "4x4",
+   "training_R": 0.004203334475645304,
+   "rows": [
+    {
+     "boundary": "PP",
+     "B": 0.004203334475645304,
+     "residual_r6c6": 9.701355706182024e-05,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.023080142116676673
+    },
+    {
+     "boundary": "AP",
+     "B": 0.004203334475645304,
+     "residual_r6c6": 0.00012310382094066208,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.029287181796724123
+    },
+    {
+     "boundary": "PA",
+     "B": 0.004203334475645304,
+     "residual_r6c6": 0.00010937867755500541,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.02602188290957107
+    },
+    {
+     "boundary": "AA",
+     "B": 0.004203334475645304,
+     "residual_r6c6": 0.00018870379681340532,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.044893833195236064
+    }
+   ]
+  },
+  {
+   "training_lattice": "4x4",
+   "heldout_lattice": "4x2",
+   "training_R": 0.001964626719730578,
+   "rows": [
+    {
+     "boundary": "PP",
+     "B": 0.0066658242773317,
+     "residual_r6c6": -5.0162396177722e-05,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.007525310312830776
+    },
+    {
+     "boundary": "AP",
+     "B": 0.006416125390112382,
+     "residual_r6c6": 0.0007425943456630946,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.11573875205236406
+    },
+    {
+     "boundary": "PA",
+     "B": 0.001974402689194854,
+     "residual_r6c6": 0.00020040028599316306,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.10149919623280332
+    },
+    {
+     "boundary": "AA",
+     "B": 0.002696943739596447,
+     "residual_r6c6": 0.00028466619875350263,
+     "passed": {
+      "1": true,
+      "2": true,
+      "4": true
+     },
+     "ratio": 0.10555140419655111
+    }
+   ]
+  }
+ ],
+ "validation_8x2": [
+  {
+   "boundary": "PP",
+   "A_c4": 0.48646351974462,
+   "A_c5": 0.48556026414446,
+   "A_c6": 0.486885283168442,
+   "d45": -0.000903255600159969,
+   "d56": 0.001325019023981966,
+   "B": 0.001325019023981966,
+   "exact": 0.4867936246610776,
+   "error_c6": 9.16585073643672e-05,
+   "ratio": 0.06917523877424323,
+   "passed_tau4": true
+  },
+  {
+   "boundary": "AP",
+   "A_c4": 0.486306218999068,
+   "A_c5": 0.485424167531353,
+   "A_c6": 0.486747156082504,
+   "d45": -0.0008820514677150282,
+   "d56": 0.0013229885511510386,
+   "B": 0.0013229885511510386,
+   "exact": 0.4866551547108466,
+   "error_c6": 9.200137165743527e-05,
+   "ratio": 0.06954056524328302,
+   "passed_tau4": true
+  },
+  {
+   "boundary": "PA",
+   "A_c4": 0.326242401483022,
+   "A_c5": 0.327209132847711,
+   "A_c6": 0.327959772053029,
+   "d45": 0.0009667313646889997,
+   "d56": 0.0007506392053179822,
+   "B": 0.0009667313646889997,
+   "exact": 0.3279614186155206,
+   "error_c6": -1.646562491575132e-06,
+   "ratio": 0.0017032265132980722,
+   "passed_tau4": true
+  },
+  {
+   "boundary": "AA",
+   "A_c4": 0.326173681643094,
+   "A_c5": 0.327139441642227,
+   "A_c6": 0.327887636685552,
+   "d45": 0.000965759999133009,
+   "d56": 0.0007481950433249618,
+   "B": 0.000965759999133009,
+   "exact": 0.327889460589867,
+   "error_c6": -1.8239043150236611e-06,
+   "ratio": 0.0018885689163571004,
+   "passed_tau4": true
+  }
+ ],
+ "parameter_stress_4x2": {
+  "description": "Reported 4x2 stress test: lambda scales only the weak preparation spin and hopping angles. B uses the unchanged calibration R. Shows that accuracy is parameter dependent; at lambda = 1 (the actual circuit) errors are far below 0.02.",
+  "columns": [
+   "lambda",
+   "exact_mean",
+   "A_mean_r6c6",
+   "signed_mean_error",
+   "worst_sector_abs_error",
+   "max_abs_error_over_B"
+  ],
+  "rows": [
+   [
+    1.0,
+    0.408424424631482,
+    0.408718790382253,
+    0.000294365751,
+    0.000742508256,
+    0.115726
+   ],
+   [
+    1.25,
+    0.438967452789636,
+    0.440288908816033,
+    0.001321456026,
+    0.002703581098,
+    0.139342
+   ],
+   [
+    1.5,
+    0.453940945027257,
+    0.458203643481029,
+    0.004262698454,
+    0.006758077798,
+    0.154094
+   ],
+   [
+    2.0,
+    0.43960921087297,
+    0.461781687468749,
+    0.022172476596,
+    0.031234523399,
+    0.172637
+   ]
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+# Downloaded third-party inputs (fetched by scripts into data/, not redistributed)
+data/
+external/
+# Large intermediate caches and run outputs
+cache/
+runs/
+*.npz.tmp
+.DS_Store
